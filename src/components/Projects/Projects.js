@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import postgres from "../../Assets/Projects/postgres.png";
+import postfix from "../../Assets/Projects/postfix.png";
+import teleBot from "../../Assets/Projects/tele.png";
+import imgEncryption from "../../Assets/Projects/image-encrypt.png";
+import notion from "../../Assets/Projects/notion.png";
+import hangman from "../../Assets/Projects/hangman.png";
 
 function Projects() {
   return (
@@ -23,68 +23,65 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={imgEncryption}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Project Stegano"
+              description="This tool is built with Python that allows peers to hide secret texts within the image and also with the unique private key, without the key the text cannot be decrypted. The project demonstrates how steganography works and how crucial it is in today's world."
+              ghLink="https://github.com/masterujjval/Project-Stegano?tab=readme-ov-file"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={postgres}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Authorization Page"
+              description="This Authorization is created using PostgreSQL, NodeJS, ExpressJS. The project implements real-life authorization, updation, and new peer signup. In this, the information is stored in the local PostgreSQL database."
+              ghLink="https://github.com/masterujjval/Postgres_Authentication?tab=readme-ov-file"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={postfix}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Postfix Conversion Tool"
+              description="The conversion tool is the most useful for converting infix expression to postfix expression which is used in computers and ARM devices. The tool helps a peer to understand the logic behind the postfix expression."
+              ghLink="https://github.com/masterujjval/Infix-Postfix-Web?tab=readme-ov-file"
+              demoLink="https://masterujjval.github.io/Infix-Postfix-Web/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={teleBot}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Notes Taking Bot"
+              description="The telegram bot is built using Python programming language. The telegram bot helps a college student to download notes of their respective subjects."
+              ghLink="https://github.com/masterujjval/Tele-Notes-Bot"
+              demoLink="https://t.me/notesrgpv_bot"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={hangman}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
+              title="Hangman Game"
+              description="The game is created using Python's Pygame library. The game allows one to guess the correct word to prevent a man from being hanged. A small interactive and enjoyable game to save an innocent NPC life."
+              ghLink="https://github.com/masterujjval/Hangman-game?tab=readme-ov-file"
+                          />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={notion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Notion On Command Line"
+              description="The tool is created using Bash language, which allows an individual to take notes, delete notes, and edit notes without any application interface thus reducing RAM consumption and hardware usage while on the other hand increasing productivity."
+              ghLink="https://github.com/masterujjval/Notion_but_CLI"
             />
           </Col>
         </Row>

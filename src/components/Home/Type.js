@@ -9,7 +9,7 @@ function Type() {
           "Software Developer",
           "Machine Learning",
           "Artificial Intelligence",
-          "Cybersecurity Engineeer",
+          "Cybersecurity Engineer",
           "Open Source Contributor",
         ],
         autoStart: true,

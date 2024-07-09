@@ -14,7 +14,7 @@ function AboutCard() {
             I am currently a student pursuing my B.Tech degree in the field of <span className="purple ">Artificial Intelligence </span>and <span className="purple ">Machine Learning</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Things I love to do apart from Coding and building projects!
           </p>
           <ul>
             <li className="about-activity">

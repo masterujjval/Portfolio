@@ -19,17 +19,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am an student aspire to become an <b className="purple">Software Engineeer, Machine Learning and Artificial Intelligence Engineeer, and Cybersecurity Engineer</b> whichever suits me the best.
+            I aspire to become a  <b className="purple">Software Engineer, Machine Learning and Artificial Intelligence Engineer, and Cybersecurity Engineer</b>whichever suits me the best.
               <br />
-              <br />I am fluent in classics like
+              <br />I use and build projects around these programming languages
               <i>
-                <b className="purple"> C++, Bash, Javascript and Python. </b>
+                <b className="purple"> C++, Bash, Javascript, and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest is building new &nbsp;
               <i>
-                <b className="purple">automation tools, AI and ML projects, bots, webscrapping tools and backend projects  </b> and
+                <b className="purple">automation tools, AI and ML projects, bots, web scraping tools, and backend projects,  </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
@@ -37,11 +37,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              In this modern internet world, i am also a <b className="purple">Bug Bounty Hunter</b> and use tools like
+              In this modern internet world, I am also a <b className="purple">Bug Bounty Hunter</b> and use tools like
               <i>
                 <b className="purple">
                   {" "}
-                  Burpsuite, Nmap, netcat <b className="white">and</b> Python tools.
+                  Burpsuite, Nmap, Netcat, <b className="white">and</b> Python tools.
                 </b>
               </i>
               &nbsp;
@@ -62,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/masterujjval"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -72,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/masterujju"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/gupta-ujjwal369/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +92,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/_ujjwal_._._"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
