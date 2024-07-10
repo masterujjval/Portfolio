@@ -11,7 +11,7 @@ function AboutCard() {
             Hi There, I am <span className="purple">Ujjwal Gupta </span>
             from <span className="purple">Madhya Pradesh, India.</span>
             <br />
-            I am currently a student pursuing my B.Tech degree in the field of <span className="purple ">Artificial Intelligence</span> and <span className="purple ">Machine Learning</span>
+            I am currently a student pursuing my B.Tech degree in the field of <span className="purple ">Artificial Intelligence</span>and<span className="purple ">Machine Learning</span>
             <br />
             <br />
             Things I love to do apart from Coding and building projects!
