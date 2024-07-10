@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I aspire to become a  <b className="purple">Software Engineer, Machine Learning and Artificial Intelligence Engineer, and Cybersecurity Engineer</b>whichever suits me the best.
+            I aspire to become a  <b className="purple">Software Engineer, Machine Learning and Artificial Intelligence Engineer, and Cybersecurity Engineer </b> whichever suits me the best.
               <br />
               <br />I use and build projects around these programming languages
               <i>
